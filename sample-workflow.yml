@@ -1,8 +1,9 @@
 name: sample-workflow
 on:
   push:
-     branches: [develop]
-     
+     branches: 
+      - develop
+
  jobs:
   job1:
     runs-on: ubuntu-latest
